@@ -1,0 +1,45 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local credentials and environment files (retain safe examples)
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Local databases, media and collected assets
+backend/db.sqlite3
+backend/media/
+backend/staticfiles/
+
+# Frontend dependencies and generated output
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+
+# Editors and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Additional local database and build files
+**/*.sqlite3
+**/*.db
+**/*.sql
+**/build/
+
+# Test and cache files
+.pytest_cache/
+.mypy_cache/
+.coverage
